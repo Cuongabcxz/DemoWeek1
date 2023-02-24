@@ -1,0 +1,9 @@
+ Bài 1: Calculate Difference Date
+ Input:  nhập vào 2 giá trị thời gian, 
+ Output: tính thời gian chênh lệch theo năm, tháng, tuần, ngày, giờ, phút (timedelta)
+ example: day1= 09/02/2023 10:05:00
+          day2 = 08/02/2023 00:00:00
+Bài 2: Dertermine Date
+Input: nhập vào 1 ngày dưới dạng datetime 
+output: date, time, thứ, tuần + chuyển đổi từ datetime qua timestamp và ngược lại
+

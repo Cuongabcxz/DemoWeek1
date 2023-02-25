@@ -9,7 +9,7 @@ class DetermineDate:
 
     def add_date_input(self):
         res = True
-        if day_input is not None:
+        if day_input != " ":
             date = self.format_date(day_input)
             self.determine_date(date)
             val_timestamp = self.convert_timestamp(date)

@@ -8,8 +8,8 @@ from datetime import timedelta, datetime
 class CalculateDifferenceDate:
 
     def __init__(self, begin_str, end_str):
-        self.first_name = begin_str
-        self.last_name = end_str
+        self.begin_str = begin_str
+        self.end_str = end_str
 
     def create_date_input(self):
         if begin_str != "" and end_str != "":
